@@ -1,0 +1,17 @@
+{
+  "name": "omnidb_parse",
+  "version": "1.0.0",
+  "description": "Parser voor HTML data uit te lezen en aan Zabbix aan te bieden",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Vyverman",
+  "license": "ISC",
+  "dependencies": {
+    "node-html-parser": "^1.3.1",
+    "node-zabbix-sender": "^1.1.0",
+    "table-scraper": "^1.0.3",
+    "tabletojson": "^2.0.4"
+  }
+}
